@@ -1,6 +1,9 @@
 'use strict';
 
-
+//mostrar año ENTERO
+const d = new Date();
+const dd =  d.getFullYear() - 2023;
+const ddd = document.getElementById('texto_nav1');
 
 // element toggle function
 const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
