@@ -4,8 +4,8 @@
 var fecha = new Date();
 var dia = fecha.getDate();
 var mes = fecha.getMonth() + 1;
-var ano = fecha.getFullYear();
-const d =  fecha.getFullYear() - 2023;
+var ano = fecha.getFullYear() - 2023;
+var d = document.getElementById('texto_nav1');
 d.innerHTML = fechacompleta;
 
 // element toggle function
