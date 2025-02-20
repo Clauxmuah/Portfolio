@@ -1,9 +1,12 @@
 'use strict';
 
 //mostrar año ENTERO
-const d = new Date();
-const dd =  d.getFullYear() - 2023;
-const ddd = document.getElementById('texto_nav1');
+var fecha = new Date();
+var dia = fecha.getDate();
+var mes = fecha.getMonth() + 1;
+var ano = fecha.getFullYear();
+const d =  fecha.getFullYear() - 2023;
+d.innerHTML = fechacompleta;
 
 // element toggle function
 const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
