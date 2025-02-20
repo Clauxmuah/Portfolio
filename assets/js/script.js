@@ -5,8 +5,9 @@ var fecha = new Date();
 var dia = fecha.getDate();
 var mes = fecha.getMonth() + 1;
 var ano = fecha.getFullYear() - 2023;
-var d = document.getElementById('texto_nav1');
-d.innerHTML = ano;
+var d = ano;
+var objetivo = document.getElementById('texto_nav1');
+objetivo.innerHTML = d;
 
 // element toggle function
 const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
